@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="cn.wjh1119.communicate.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button1"
+            style="@style/button"
+            android:text="communicate by handler" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/button"
+            android:text="communicate by broadcast"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/button"
+            android:text="communicate by eventsbus" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/button"
+            android:text="communicate by interface"
+            />
+
+        <TextView
+            android:id="@+id/main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="start \n"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>
